@@ -1,5 +1,6 @@
 /*
-A classic "does it work?" first example for testing that your NodeJS installation is working.
+
+This is not a server: just a classic "does it work?" example for testing that your NodeJS installation is working.
 
 If you need to install Node, go to https://nodejs.org/ and get the latest LTS version.
 
