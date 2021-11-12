@@ -13,7 +13,8 @@ For some files, you'll need to first install Node modules with the Node Package 
 
 `> npm install <MODULE> [<MODULE>...]`
 
-For each file, you can run the server in the console with
+For each file, you can run the server in the console with:
+
 `> node <FILE>`
 
 Open your browser to `localhost` with various URLs as suggested in the comments to test how it handles HTTP requests. You might also use the `curl` command in another terminal or the Postman API App (https://www.postman.com/downloads/) to send requests and see responses.
