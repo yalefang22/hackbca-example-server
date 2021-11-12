@@ -18,7 +18,15 @@ For each file, you can run the server in the console with
 
 Open your browser to `localhost` with various URLs as suggested in the comments to test how it handles HTTP requests. You might also use the `curl` command in another terminal or the Postman API App (https://www.postman.com/downloads/) to send requests and see responses.
 
-For further reading, the MDN introduction to NodeJS/Express is decent: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
+For further reading, the MDN introduction to NodeJS/Express is decent: 
+
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
+
+The official express documentation website has some sparse introductory tutorials on basic routing and serving static files:
+
+- https://expressjs.com/en/starter/basic-routing.html
+
+- https://expressjs.com/en/starter/static-files.html
 
 
 
