@@ -5,7 +5,7 @@ responses with a bit of HTML.
 See comments below for a line-by-line breakdown.
 
 Run the program with the following console command:
-> node 01-first-server.js
+> node 01-first-http-server.js
 
 Notice that a URL is printed to the console, and the program continues to run. 
 HTTP servers essentially run forever, unless they crash or interrupted. 
@@ -59,6 +59,7 @@ function handler(request, response) {
 
 // Create a serve" that uses the above function to handle incoming requests.
 const server = http.createServer(handler);
+
 // Have the server listen on the specified port.
 server.listen(PORT);
 

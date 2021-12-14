@@ -3,7 +3,7 @@ This creates a static HTTP server that responds to requests for various
 static resource files, which are in the public folder. 
 
 Then run this like you did the other servers:
-> node 04-simple-express-server.js
+> node 03-static-http-server.js
 
 Then, open your browser (and/or curl/Postman) and enter these URLs:
 - localhost
@@ -45,7 +45,8 @@ function handler(request, response) {
         // fs.readFile attempts to read a local file. Since this can take some time, 
         // it runs "asynchronously" and requires a "callback function" to handle the data once the file is ready.
         // Here, an unnamed "arrow" function is used to conveniently in-line it, similar to a lambda
-        fs.readFile("public" + request.url, (err , data) => { 
+        fs.readFile("public" + request.url, (err , data) => {
+            console.log("sugma dick public" + request.url);
             console.log(`Attempted load for ${request.url} has completed!`)
 
             //The first parameter will be an Error object if anything goes wrong.
@@ -72,5 +73,3 @@ const server = http.createServer(handler);
 server.listen(PORT);
 
 console.log(`HTTP server listening at http://localhost:${PORT}`)
-
-
